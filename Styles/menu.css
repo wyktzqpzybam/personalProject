@@ -1,0 +1,18 @@
+.footer-menu {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #454e5c;
+  }
+  
+  .footer-menu a {
+      /* width: 5%; */
+      padding: 0px 25px 0px 25px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-size: 20px;
+      color: black;
+  }

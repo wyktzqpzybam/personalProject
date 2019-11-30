@@ -1,0 +1,70 @@
+.cv {
+    background: url("../Assets/personalinfo.jpg") no-repeat fixed center;
+    background-size: cover;
+    opacity: 1.2;
+}
+
+.container {
+    overflow: scroll;
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    height:100%;
+}
+
+.cv-section {
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    text-shadow: 1px 1px white;
+    
+    font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+.projects {
+    
+    display: flex;
+    flex-direction: row;
+    background: url("../Assets/projects.jpg") no-repeat fixed center;
+    background-size: cover;
+    
+}
+
+.projects, .cv {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+#general-info {
+    color:#341a4a;
+    font-size: 35px;
+    text-shadow: 2px 2px #11081a;
+}
+
+
+.project-items {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    height:100%;
+   
+}
+
+.project-items p {
+    font-size: 50px;
+    text-shadow: 0 0 8px  white, 0 0 10px white;
+}
+
+.project-items p {
+    color: white;
+}
+
+.icons img {
+    width:20%;
+    margin-top: 10%;
+}
+
+

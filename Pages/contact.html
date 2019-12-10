@@ -20,8 +20,8 @@
                 </div>
 
                 <!-- <div> -->
-                    <!-- <img src="../Assets/icons8-gmail-50.png"> -->
-                    <!-- <p>iovanescu.victor55</p> -->
+                <!-- <img src="../Assets/icons8-gmail-50.png"> -->
+                <!-- <p>iovanescu.victor55</p> -->
                 <!-- </div> -->
 
                 <div>
@@ -35,7 +35,22 @@
                 </div>
 
             </div>
+            <div class="email-box">
+               <div class="email-box-content">
+                <h1>Send me an email</h1>   
+                <div class="email-inputs">
+                    <input type="email" placeholder="Email from">
+                    <input type="text" placeholder="Subject">
+                    <textarea name="" cols="30" rows="10" placeholder="Content"></textarea>
+                </div>
+                <button>Send</button>
+
+               </div>
+
+            </div>
         </div>
+
+
 
         <div class="footer-menu">
             <a href="javascript:openURL('./home.html')" onClick="startTransition()">HOME</a>
@@ -45,13 +60,15 @@
         </div>
 
         <div class="transition-box"></div>
-        
-        
+
+
 
     </div>
 
     <script src="../Scripts/transitions.js"></script>
-
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script src="../Scripts/mail.js"></script>
 </body>
 
 </html>
